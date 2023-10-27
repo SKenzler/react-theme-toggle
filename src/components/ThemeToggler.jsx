@@ -1,7 +1,17 @@
 import React from "react";
+import useTheme from "../context/theme";
 
 export const ThemeToggler = () => {
-  const onChangeBtn = () => {};
+  const { themeMode, darkTheme, lightTheme } = useTheme();
+  const onChangeBtn = (e) => {
+    const darkModeStatus = e.currentTarget.checked;
+
+    if (darkModeStatus) {
+      darkTheme();
+    } else {
+      lightTheme();
+    }
+  };
 
   return (
     <label className="relative inline-flex items-center cursor-pointer">
