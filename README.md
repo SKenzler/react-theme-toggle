@@ -1,6 +1,6 @@
 # React Theme Toggler
 
-![React Profile Card](theme-toggler-screenshot.jpg)
+![React Toggler Screenshot](https://github.com/SKenzler/react-theme-toggle/blob/main/src/assets/theme-toggler-sreenshot.jpg)
 
 ## About The Project
 
